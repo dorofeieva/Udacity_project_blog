@@ -1,0 +1,144 @@
+
+.header, .footer {
+    background-color: #f4f8fb;
+    font-size: 1.1em;
+    height: 100%;
+}
+.header {
+    border-bottom: 2px solid gainsboro;
+}
+
+.footer {
+    border-top: 2px solid gainsboro;
+}
+
+.header img {
+    height: 80px;
+}
+
+.header .logo, .header-menu {
+    padding: 20px;
+}
+
+.blogcontent .box, .postbox .box {
+    margin-bottom: 20px;
+}
+
+.box {
+    border: 2px solid gainsboro;
+    padding: 15px;
+}
+
+@media (min-width: 600px) {
+    
+    footer p {
+        padding: 30px;
+    }
+    
+}
+
+
+/* Mainpost / postpreview */
+
+.mainpost {
+    background-image: url('img/mountain2.png');
+    background-size: cover; 
+    padding: 15px;
+    
+}
+.textpreview {
+    height: 90px;
+    overflow: hidden;
+    /* white-space: pre-wrap; */
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+
+.post-intro-img {
+    background-image: url('img/discover.jpg');
+    background-size: cover; 
+    padding: 15px;
+    min-height: 230px;
+}
+
+/* Styles of Rightbox */
+.authorinfo {
+    padding: 25px;
+    background-color: #f4f8fb;
+    border: 2px solid gainsboro;
+}
+.social-share-buttons, .authorinfo {
+    margin-bottom: 30px;
+}
+.author-name {
+    text-align: center;
+}
+
+/* .man-avatar {
+    background-image: url('img/avatar.jpg');
+}
+.authoravatar {
+    background-image: url('img/portrait-of-john-smith.jpg');
+} */
+
+.authoravatar img, .man-avatar img {
+    max-width: 100%;
+}
+.authoravatar, .man-avatar  {
+    max-height: 180px;
+    max-width: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #bebebe;
+    border-radius: 50%;
+    background-size: cover; 
+    
+}
+
+/* Formating text of post */
+
+.text-intro {
+    font-style: italic;
+}
+
+/* Categorie sticker  */
+
+.categorie-stick {
+    width: auto;
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+    font-size: 0.95em;
+    cursor: pointer;
+}
+.ct-travel {
+    background-color: rgba(68, 134, 255, 0.4);
+}
+.ct-hobby {
+    background-color: rgba(5, 184, 139, 0.4);
+}
+.ct-fun {
+    background-color: rgba(247, 225, 34, 0.5);
+}
+.ct-author {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* LINKS styles */
+
+.link-continue, .link-continue-mainpost {
+    text-align: right;
+    padding: 10px;
+    font-style: italic;
+}
+.link-continue a {
+    color: darkblue;
+}
+.link-continue-mainpost a {
+    color: #fff;
+}
+
+

@@ -1,0 +1,120 @@
+@import "grid-blogpost.css";
+@import "grid-homepage.css";
+
+/* Common parts of grid for all pages */
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-gap: 15px;
+    
+    height: 100%;
+    margin: 0 auto;
+}
+.header, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-menu {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Anything smaller than first breakpoint 600px */
+
+@media (min-width: 411px) { 
+    .header, footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /* grid-column: 1 / span 2; */
+    }
+}
+.container {
+    width: 90vw;
+    grid-template-columns: 100%;
+    grid-auto-rows: minmax(80px, auto);
+}
+
+
+/* Medium Screens */
+@media (min-width: 600px) {
+    
+    .container {
+        grid-template-rows: [row1-start] 75px repeat(2, auto[row-start]) [last-line] 90px;
+        grid-template-areas: 
+        "header"
+        "mainbox"
+        "contentbox"
+        "footer";
+    }
+    
+    
+    /* Common elements of layout */
+    .header {
+        grid-area: header;
+    }
+    .footer {
+        grid-area: footer;
+    }
+    
+    .header-navbar {
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .box {
+        grid: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    /* Grid if "Blog" page */
+    
+    .blogcontent {
+        grid-area: mainbox;
+    }
+    
+}
+
+/* Large Screens */
+@media (min-width: 900px) {
+    .container {
+        width: 70vw;
+    }
+}
+
+
+/* Buttons layout */
+
+.postbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+
+/* Social-share buttons */
+
+.social-share-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+
+.social-buttons-item, .social-buttons-link  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+

@@ -1,0 +1,37 @@
+
+/* Medium Screens */
+  @media (min-width: 600px) {
+
+/* Home page layout */
+    .mainpost {
+        grid-area: mainbox;
+        
+    }
+    .contentbox  {
+        grid-area: contentbox;
+    }
+
+    .postbox{
+        display: grid;
+        grid-gap: 25px;
+        justify-content: center;
+        grid-template-columns: repeat(2, 48%);
+        grid-template-rows: repeat(auto, auto[row-start]);
+        grid-template-areas: 
+        "box1 box2"
+        "box3 box4"
+    }
+    #postbox1 {
+        grid-area: box1;
+    }
+    #postbox2 {
+        grid-area: box2;
+    }
+    #postbox3 {
+        grid-area: box3;
+    }
+    #postbox4 {
+        grid-area: box4;
+    }
+    
+  }
