@@ -1,58 +1,3 @@
-@import "grid.css";
-@import "custom.css";
-
-/* Styles of base elements  */
-body {
-    font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.428571429;
-	width: 100%;
-	background: #fff;
-}
-
-h1, h2 {
-    font-family: "Helvetica Neue", sans-serif;;
-    font-weight: 500;
-}
-h1 {
-    font-size: 2.6em;
-    /* font-weight: 400; */
-}
-h2 {
-    font-size: 2em;
-}
-a {
-    text-decoration: none;
-    color: #0F0F0F
-}
-a:hover {
-    opacity: 0.85;
-} 
-blockquote {
-    padding: 25px;
-    background-color: #f4f8fb;
-    border: 2px solid gainsboro;
-}
-mark {
-    background-color: #55abee;
-}
-q {
-    background-color: #dcf0ff;
-    
-}
-
-.header a:hover {
-    color: #4c658e;
-}
-
-/* Layout */
-
-
-
-
-
-
 /* Buttons */
 
 .postbuttons :hover {
@@ -107,15 +52,15 @@ q {
 .share-facebook {
     background-color: #3e68c0;
 }
-.share-pinterest {
-    background-color: #CB2027;
+.share-linkedin {
+    background-color: #0077b5;
 }
 .share-twitter {
     background-color: #55acee;
 }
 .share-email {
     /* background-color: #cb1f26; */
-    background-color: #95D03A;
+    background-color: #D44638;
 }
 
 /*  */

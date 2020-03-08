@@ -41,7 +41,7 @@
 /* Mainpost / postpreview */
 
 .mainpost {
-    background-image: url('img/mountain2.png');
+    background-image: url('../images/mountain2.png');
     background-size: cover; 
     padding: 15px;
     
@@ -55,7 +55,7 @@
 }
 
 .post-intro-img {
-    background-image: url('img/discover.jpg');
+    background-image: url('../images/discover.jpg');
     background-size: cover; 
     padding: 15px;
     min-height: 230px;
@@ -75,10 +75,10 @@
 }
 
 /* .man-avatar {
-    background-image: url('img/avatar.jpg');
+    background-image: url('../images/avatar.jpg');
 }
 .authoravatar {
-    background-image: url('img/portrait-of-john-smith.jpg');
+    background-image: url('../images/portrait-of-john-smith.jpg');
 } */
 
 .authoravatar img, .man-avatar img {
