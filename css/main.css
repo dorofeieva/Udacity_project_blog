@@ -1,6 +1,8 @@
 @import "grid.css";
+@import "grid-blogpost.css";
+@import "grid-homepage.css";
 @import "custom.css";
-@import "elements.css";
+@import "components.css";
 
 /* Styles of base elements  */
 body {
@@ -52,7 +54,6 @@ mark {
 }
 q {
     background-color: #dcf0ff;
-    
 }
 
 .header a:hover {

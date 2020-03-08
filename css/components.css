@@ -8,11 +8,9 @@
     padding: 15px 32px;
     margin: 4px 2px;
     text-align: center;
-    
     cursor: pointer;
     border: none;
     text-decoration: none;
-    
     font-size: 0.9em;
     background-color: #4CAF50;
     color: white; 
@@ -23,7 +21,6 @@
 /* Social-share buttons */
 
 .social-buttons-item, .social-buttons-link  {
-    
     /* layout */
     height: 40px;
     min-width: 82px;
@@ -63,4 +60,28 @@
     background-color: #D44638;
 }
 
-/*  */
+/* Categorie sticker  */
+
+.categorie-stick {
+    width: auto;
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+    font-size: 0.95em;
+    cursor: pointer;
+}
+.ct-travel {
+    background-color: rgba(68, 134, 255, 0.4);
+}
+.ct-hobby {
+    background-color: rgba(5, 184, 139, 0.4);
+}
+.ct-fun {
+    background-color: rgba(247, 225, 34, 0.5);
+}
+.ct-author {
+    background-color: rgba(255, 255, 255, 0.6);
+}

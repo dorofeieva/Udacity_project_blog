@@ -33,8 +33,7 @@
     
     footer p {
         padding: 30px;
-    }
-    
+    } 
 }
 
 /* Postcards */
@@ -62,7 +61,6 @@
 .textpreview {
     height: 95px;
     overflow: hidden;
-    /* white-space: pre-wrap; */
     text-overflow: ellipsis;
     margin-bottom: 10px;
 }
@@ -86,13 +84,6 @@
 .author-name {
     text-align: center;
 }
-
-/* .man-avatar {
-    background-image: url('../images/avatar.jpg');
-}
-.authoravatar {
-    background-image: url('../images/portrait-of-john-smith.jpg');
-} */
 
 .authoravatar img, .man-avatar img {
     max-width: 100%;
@@ -119,32 +110,6 @@
 }
 .post-img img{
     max-width: 100%;
-}
-
-/* Categorie sticker  */
-
-.categorie-stick {
-    width: auto;
-    height: 15px;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.6);
-    font-style: italic;
-    font-size: 0.95em;
-    cursor: pointer;
-}
-.ct-travel {
-    background-color: rgba(68, 134, 255, 0.4);
-}
-.ct-hobby {
-    background-color: rgba(5, 184, 139, 0.4);
-}
-.ct-fun {
-    background-color: rgba(247, 225, 34, 0.5);
-}
-.ct-author {
-    background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* LINKS styles */
