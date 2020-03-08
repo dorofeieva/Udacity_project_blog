@@ -30,6 +30,14 @@ a {
 a:hover {
     opacity: 0.85;
 } 
+
+button {
+    font-size: 1em;
+}
+#nav__list li {
+    list-style: none;
+    padding: 15px;
+}
 figcaption {
     font-style: italic;
     text-align: center;

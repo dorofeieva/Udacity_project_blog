@@ -37,6 +37,20 @@
     
 }
 
+/* Postcards */
+
+.postcard-textpreview {
+    height: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.postcard-img {
+    padding: 20px;
+}
+.postcard-img img{
+    max-width: 100%;
+}
 
 /* Mainpost / postpreview */
 
@@ -44,10 +58,9 @@
     background-image: url('../images/mountain2.png');
     background-size: cover; 
     padding: 15px;
-    
 }
 .textpreview {
-    height: 90px;
+    height: 95px;
     overflow: hidden;
     /* white-space: pre-wrap; */
     text-overflow: ellipsis;
@@ -99,6 +112,13 @@
 
 .text-intro {
     font-style: italic;
+}
+
+.post-img {
+    text-align: center;
+}
+.post-img img{
+    max-width: 100%;
 }
 
 /* Categorie sticker  */

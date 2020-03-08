@@ -1,8 +1,29 @@
+.postcard-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.postcard-img {
+    width: 90%;
+}
+@media (min-width: 411px) { 
+    .postcard-preview {
+        flex-direction: row;
+    }
+    .postcard-img {
+        width: 35%;
+    }
+    .postcard-textpreview {
+        width: 65%;
+    }
+}
+
 
 /* Medium Screens */
-  @media (min-width: 600px) {
-
-/* Home page layout */
+@media (min-width: 600px) {
+    
+    /* Home page layout */
     .mainpost {
         grid-area: mainbox;
         
@@ -10,7 +31,7 @@
     .contentbox  {
         grid-area: contentbox;
     }
-
+    
     .postbox{
         display: grid;
         grid-gap: 25px;
@@ -34,4 +55,4 @@
         grid-area: box4;
     }
     
-  }
+}
